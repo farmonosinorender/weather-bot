@@ -9,7 +9,7 @@ def lang_btn():
     )
     return markup
 
-def cities():
+def shahar():
     markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True, row_width=2)
     markup.add(
         KeyboardButton("Andijon"), KeyboardButton("Buxoro"),
@@ -19,5 +19,31 @@ def cities():
         KeyboardButton("Nukus"), KeyboardButton("Samarqand"),
         KeyboardButton("Sirdaryo"), KeyboardButton("Toshkent"),
         KeyboardButton("Termiz")
+    )
+    return markup
+
+def gorod():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True, row_width=2)
+    markup.add(
+        KeyboardButton("Андижан"), KeyboardButton("Бухара"),
+        KeyboardButton("Фергана"), KeyboardButton("Жиззах"),
+        KeyboardButton("Хорезм"), KeyboardButton("Наманган"),
+        KeyboardButton("Навои"), KeyboardButton("Кашгадаря"),
+        KeyboardButton("Нукус"), KeyboardButton("Самарканд"),
+        KeyboardButton("Сырдарья"), KeyboardButton("Ташкент"),
+        KeyboardButton("Термиз")
+    )
+    return markup
+
+def cities():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True, row_width=2)
+    markup.add(
+        KeyboardButton("Andijan"), KeyboardButton("Bukhara"),
+        KeyboardButton("Fergana"), KeyboardButton("dJizzax"),
+        KeyboardButton("Khorezm"), KeyboardButton("Namangan."),
+        KeyboardButton("Navoi"), KeyboardButton("Kashgadarya"),
+        KeyboardButton("Nukus."), KeyboardButton("Samarkand"),
+        KeyboardButton("Sirdarya"), KeyboardButton("Tashkent"),
+        KeyboardButton("Termiz.")
     )
     return markup
