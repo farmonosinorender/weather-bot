@@ -40,7 +40,7 @@ def message(message):
         elif message.text == "Qashqadaryo":
             bot.send_message(message.chat.id, f"Bugun havo harorati {qashqadaryo()} bo'lishi kutilmoqda", reply_markup=shahar())
         elif message.text == "Nukus":
-            bot.send_message(message.chat.id, f"Bugun havo harorati {nukus()} viloyati bo'lishi kutilmoqda", reply_markup=cities())
+            bot.send_message(message.chat.id, f"Bugun havo harorati {nukus()} viloyati bo'lishi kutilmoqda", reply_markup=shahar())
         elif message.text == "Samarqand":
             bot.send_message(message.chat.id, f"Bugun havo harorati {samarqand()} bo'lishi kutilmoqda", reply_markup=shahar())
         elif message.text == "Sirdaryo":
